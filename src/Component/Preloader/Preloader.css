@@ -1,0 +1,35 @@
+.Preloader {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.Preloader .texts-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 500px;
+    font-size: 30px;
+    font-weight: 800;
+    overflow: hidden;
+    color:aliceblue;
+
+}
+@media only screen and (max-width: 530px) {
+    .Preloader .texts-container {
+        justify-content: space-evenly;
+        font-size: 18px;
+        
+    }
+}
